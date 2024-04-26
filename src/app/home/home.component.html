@@ -1,0 +1,14 @@
+<p>home works!</p>
+{{receive1}}
+<h1>user name is:{{name}} </h1>
+
+<img [src]="img" alt="">
+
+<button (click)="show()">click</button><br><br>
+<input type="text" [(ngModel)]="user">
+
+<h1>{{user}}</h1>
+
+<h1>{{a}}</h1>
+
+<app-login [receive]="value" (output)="receive($event)"></app-login>
